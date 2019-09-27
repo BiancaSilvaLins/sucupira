@@ -1,0 +1,11 @@
+Opcões de rodar os testes
+
+ mvn test -Dcucumber.options="--tags @TestTag"
+
+ mvn test -Dcucumber.options="src/test/resources/features/login-scba.feature"
+
+
+
+ Para gerar relatório do Allure:
+ Abra o Cmd e entre no caminho: cd  C:/Users/{seuUsuario}/Desktop/teste_automacao/scripts/target
+ E execute o seguinte comando: allure serve allure-results
